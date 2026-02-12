@@ -8,10 +8,6 @@ const PLACEHOLDER_IMAGES = [
     "/pics/IMG_3816.JPG",
 ];
 
-const MEMES = [
-    { text: "Us when we get food", img: "/pics/IMG_7300.JPG" },
-];
-
 export function CelebrationGallery() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [direction, setDirection] = useState(0);
